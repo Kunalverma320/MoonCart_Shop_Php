@@ -1,0 +1,115 @@
+{
+    "id": "cs_test_a15eqRxtow3jjfBDi5ovopMvasP3qwiA31ue0XdF5MbPLngrlLW6nLD0KE",
+    "object": "checkout.session",
+    "after_expiration": null,
+    "allow_promotion_codes": false,
+    "amount_subtotal": 4000,
+    "amount_total": 4000,
+    "automatic_tax": {
+        "enabled": false,
+        "liability": null,
+        "status": null
+    },
+    "billing_address_collection": "required",
+    "cancel_url": "https:\/\/stripe.com",
+    "client_reference_id": null,
+    "client_secret": null,
+    "consent": null,
+    "consent_collection": {
+        "payment_method_reuse_agreement": null,
+        "promotions": "none",
+        "terms_of_service": "none"
+    },
+    "created": 1707299184,
+    "currency": "inr",
+    "currency_conversion": null,
+    "custom_fields": [],
+    "custom_text": {
+        "after_submit": null,
+        "shipping_address": null,
+        "submit": null,
+        "terms_of_service_acceptance": null
+    },
+    "customer": null,
+    "customer_creation": "if_required",
+    "customer_details": {
+        "address": {
+            "city": "Raipur",
+            "country": "IN",
+            "line1": "Station Road",
+            "line2": "f",
+            "postal_code": "492009",
+            "state": "CT"
+        },
+        "email": "kunal.iugofi@gmail.com",
+        "name": "nvcbdh",
+        "phone": "+919165454247",
+        "tax_exempt": "none",
+        "tax_ids": []
+    },
+    "customer_email": null,
+    "expires_at": 1707385583,
+    "invoice": null,
+    "invoice_creation": {
+        "enabled": false,
+        "invoice_data": {
+            "account_tax_ids": null,
+            "custom_fields": null,
+            "description": null,
+            "footer": null,
+            "issuer": null,
+            "metadata": [],
+            "rendering_options": null
+        }
+    },
+    "livemode": false,
+    "locale": "auto",
+    "metadata": [],
+    "mode": "payment",
+    "payment_intent": "pi_3Oh7iHSHWK0fmSdm1FhRa46O",
+    "payment_link": "plink_1OgKRMSHWK0fmSdmYn4itpav",
+    "payment_method_collection": "if_required",
+    "payment_method_configuration_details": {
+        "id": "pmc_1OfE4iSHWK0fmSdmWtfD21ND",
+        "parent": null
+    },
+    "payment_method_options": [],
+    "payment_method_types": [
+        "card"
+    ],
+    "payment_status": "paid",
+    "phone_number_collection": {
+        "enabled": true
+    },
+    "recovered_from": null,
+    "setup_intent": null,
+    "shipping_address_collection": {
+        "allowed_countries": [
+            "IN"
+        ]
+    },
+    "shipping_cost": null,
+    "shipping_details": {
+        "address": {
+            "city": "Raipur",
+            "country": "IN",
+            "line1": "Station Road",
+            "line2": "f",
+            "postal_code": "492009",
+            "state": "CT"
+        },
+        "name": "nvcbdh"
+    },
+    "shipping_options": [],
+    "status": "complete",
+    "submit_type": "auto",
+    "subscription": null,
+    "success_url": "https:\/\/stripe.com",
+    "total_details": {
+        "amount_discount": 0,
+        "amount_shipping": 0,
+        "amount_tax": 0
+    },
+    "ui_mode": "hosted",
+    "url": null
+}
